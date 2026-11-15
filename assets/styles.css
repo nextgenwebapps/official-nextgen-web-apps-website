@@ -103,6 +103,5 @@
 /* Center the footer AVIF logo inside its reduced frame and footer column. */
 .footer-logo-link{display:flex;align-items:center;justify-content:flex-start;margin-left:0;margin-right:auto;border-radius:14px;}
 .footer-logo-image{border-radius:14px;}
-.footer-brand{text-align:left;}
-.footer-brand p{text-align:left;}
-.footer-brand p{margin-top:8px;}
+.footer-brand{display:flex;flex-direction:column;align-items:flex-start;text-align:left;}
+.footer-brand p{margin:12px 0 0;padding-top:4px;text-align:left;}
