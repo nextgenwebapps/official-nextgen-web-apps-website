@@ -81,5 +81,6 @@
 
 
 
-/* Use the original square N mark consistently in the header and footer. */
-.footer-logo-image{display:block;width:80px;height:80px;object-fit:contain;border-radius:0;}
+/* Use the uploaded horizontal rectangle logo in the footer. */
+.footer-logo-image{display:block;width:min(100%,380px);height:auto;object-fit:contain;border-radius:0;}
+@media(max-width:640px){.footer-logo-image{width:min(100%,350px);}}
