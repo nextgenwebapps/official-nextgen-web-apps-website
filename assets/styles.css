@@ -86,8 +86,8 @@
 @media(max-width:640px){.footer-logo-image{width:min(100%,350px);}}
 
 
-/* Blend the square JPG logo into the header so its white canvas disappears. */
-.site-header .brand-mark{background:transparent;mix-blend-mode:multiply;border-radius:0;}
+/* Blend the square AVIF logo into the header so its white canvas disappears. */
+.site-header .brand-mark{background:transparent;mix-blend-mode:darken;border-radius:0;}
 
 /* Give the horizontal footer logo a clean rounded-rectangle treatment. */
 .footer-logo-image{border-radius:18px;overflow:hidden;}
