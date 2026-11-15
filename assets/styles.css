@@ -80,14 +80,6 @@
 }
 
 
-/* Blend the square header logo's white canvas into the light header background. */
-.site-header .brand-mark{background:transparent!important;mix-blend-mode:darken!important;}
 
-/* Increase the footer's horizontal logo while keeping its original aspect ratio. */
-.footer-logo-image{
-  width:min(100%,380px);
-  height:auto;
-}
-@media(max-width:640px){
-  .footer-logo-image{width:min(100%,350px);}
-}
+/* Use the original square N mark consistently in the header and footer. */
+.footer-logo-image{display:block;width:80px;height:80px;object-fit:contain;border-radius:0;}
