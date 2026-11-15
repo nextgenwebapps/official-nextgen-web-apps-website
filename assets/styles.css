@@ -93,10 +93,10 @@
 .footer-logo-image{border-radius:18px;overflow:hidden;}
 
 /* Reduce the footer logo frame while keeping the logo image at its original size. */
-.footer-logo-link{display:block;width:min(100%,304px);height:57px;overflow:hidden;}
+.footer-logo-link{display:block;width:min(100%,274px);height:68px;overflow:hidden;}
 .footer-logo-image{display:block;width:380px;max-width:none;height:auto;}
 @media(max-width:640px){
-  .footer-logo-link{width:min(100%,280px);height:52px;}
+  .footer-logo-link{width:min(100%,252px);height:62px;}
   .footer-logo-image{width:350px;}
 }
 
