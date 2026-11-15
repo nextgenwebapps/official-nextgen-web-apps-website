@@ -48,9 +48,9 @@
       icon.rel = "icon";
       document.head.appendChild(icon);
     }
-    icon.href = "/official-nextgen-web-apps-website/assets/favicon.png?v=20261115png";
-    icon.type = "image/png";
-    icon.sizes = "215x215";
+    icon.href = "/official-nextgen-web-apps-website/assets/square-logo.jpg?v=20261115jpg";
+    icon.type = "image/jpeg";
+    icon.sizes = "any";
   };
 
   setSiteIcon();
