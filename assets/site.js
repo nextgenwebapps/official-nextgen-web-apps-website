@@ -48,7 +48,7 @@
       icon.rel = "icon";
       document.head.appendChild(icon);
     }
-    icon.href = "/official-nextgen-web-apps-website/assets/favicon.svg?v=20261115crop";
+    icon.href = "/official-nextgen-web-apps-website/assets/favicon.svg?v=20261115fix2";
     icon.type = "image/svg+xml";
     icon.sizes = "any";
   };
