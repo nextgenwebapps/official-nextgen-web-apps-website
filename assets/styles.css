@@ -81,10 +81,7 @@
 
 
 /* Blend the square header logo's white canvas into the light header background. */
-.site-header .brand-mark{
-  background:transparent;
-  mix-blend-mode:multiply;
-}
+.site-header .brand-mark{background:transparent!important;mix-blend-mode:darken!important;}
 
 /* Increase the footer's horizontal logo while keeping its original aspect ratio. */
 .footer-logo-image{
