@@ -89,3 +89,16 @@
     padding: 28px;
   }
 }
+
+/* Mobile only: keep the blue question-mark tile perfectly square. */
+@media (max-width: 640px) {
+  .support-symbol {
+    width: 56px;
+    min-width: 56px;
+    height: 56px;
+    min-height: 56px;
+    flex: 0 0 56px;
+    align-self: flex-start;
+    aspect-ratio: 1 / 1;
+  }
+}
