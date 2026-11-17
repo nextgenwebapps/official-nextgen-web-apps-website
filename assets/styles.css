@@ -79,10 +79,18 @@
   }
 }
 
-/* Desktop/tablet: align the support box's left and right edges with the page heading container. */
+/* Keep the support box's outer left/right gaps equal to its section's top gap. */
 @media (min-width: 641px) {
   .support-panel {
-    width: 100%;
+    width: calc(100vw - 184px);
     max-width: none;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 640px) {
+  .support-panel {
+    width: calc(100vw - 130px);
+    max-width: none;
+    margin-inline: auto;
   }
 }
