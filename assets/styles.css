@@ -69,3 +69,12 @@
     margin-inline: auto;
   }
 }
+
+/* Desktop only: make Privacy Policy and Terms content start at the
+   same container edge as the heading above, without changing mobile. */
+@media (min-width: 851px) {
+  .container.legal-content {
+    max-width: var(--max);
+    margin-inline: auto;
+  }
+}
